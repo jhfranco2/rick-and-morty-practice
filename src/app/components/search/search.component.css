@@ -1,0 +1,16 @@
+.input{
+  width: 300px;
+  height: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #f4f4f4;
+  padding-left: 1rem;
+}
+
+.container {
+  margin: 2rem;
+  text-align: center;
+
+}

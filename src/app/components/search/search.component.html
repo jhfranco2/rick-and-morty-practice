@@ -1,0 +1,4 @@
+<div class="container">
+  <input class="input" type="text" (keyup.enter)="onInputChange($event)" id="search" name="search" >
+</div>
+<app-card *ngIf="searchText!==''" [textSearch]="searchText"></app-card>
